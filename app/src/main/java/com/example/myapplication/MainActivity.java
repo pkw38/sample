@@ -10,7 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    private int a;
+    private int num=2;
     private Button MoveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),show.class);
                 startActivity(intent);
-
+          
             }
         });
     }
