@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int a;
     private int num=2;
+    private int num;
     private Button MoveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
