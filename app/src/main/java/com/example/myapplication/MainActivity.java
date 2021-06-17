@@ -11,6 +11,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private int a;
+    private int num;
     private Button MoveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
